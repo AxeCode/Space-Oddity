@@ -1,0 +1,107 @@
+body{
+    padding: 0px;
+    margin:0px;
+    background-color: gray;
+}
+section {
+    background-color: #fff;
+}
+header {
+    height: 100px;
+    background-color: #0f0f0f;
+    padding: 10px;
+    margin: 0px;
+    line-height: 90px;
+}
+header img{
+    display: inline-block;
+    float: left;
+    margin-left: 20px;
+}
+header #header-title{
+    display: inline-block;
+    margin-left: 20px;
+    color: #ccc;
+    font-size: 24px;
+    line-height: 100px;
+    font-weight: bold;
+    font-family: Monaco,'Courier New', monospace;
+}
+header nav{
+    display: inline-block;
+    float: right;
+    height: 100px;
+}
+header ul{
+    display: inline-block;
+    margin: 2px;
+    float: right;
+
+}
+header li{
+    margin: 5px;
+    list-style-type: none;
+    display: inline-block;
+}
+header li a{
+    color: #ccc;
+    font-size: 18px;
+    text-decoration: none;
+
+}
+.content{
+
+}
+section {
+    margin: 20px 20px;
+    border:1px solid #ccc;
+    padding: 20px;
+}
+section .header{
+    margin:10px;
+    border-left: 5px solid #ccc;
+    padding: 5px;
+}
+#table1{
+    width: 100%;
+    border-collapse: collapse;
+}
+#table1 thead{
+    background-color: black;
+    color:#fff;
+    font-size: 18px;
+    font-weight: bold;
+}
+#table1 tfoot{
+    background-color:#ccc;
+}
+#table1 th,td {
+    padding: 3px;
+    border:1px solid #ccc;
+}
+#table2 td{
+    border:none;
+    /*text-align: right;*/
+}
+#table2 .text-right{
+    text-align: right;
+}
+#table2 .help-text{
+    color:#ccc;
+}
+#table2 button{
+    padding: 5px;
+    color:#fff;
+    font-size: 23px;
+    border-radius: 5px;
+    border:1px solid blue;
+    background-color: #0767C8;
+    width: 1200px;
+}
+footer{
+    background-color: black;
+    height: 50px;
+    color:#fff;
+    line-height: 50px;
+    text-align: center;
+}
