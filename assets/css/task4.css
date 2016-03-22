@@ -1,0 +1,37 @@
+body{
+    padding: 0px;
+    margin: 0px;
+}
+.container{
+    position: absolute;
+    top:0px;
+    bottom: 0px;
+    left:0px;
+    right: 0px;
+    background-color: #fff;
+}
+.box{
+    /*vertical height with fixed height*/
+    position: absolute;
+    left:50%;
+    top:50%;
+    width: 400px;
+    height: 200px;
+    background-color: #ccc;
+    margin:-100px -200px;
+}
+#inner-box1{
+    width: 50px;
+    height: 50px;
+    background: #fc0;
+    border-bottom-right-radius:50px;
+}
+#inner-box2{
+    position: relative;
+    top: 100px;
+    left: 350px;
+    width: 50px;
+    height: 50px;
+    background: #fc0;
+    border-top-left-radius:50px;
+}
