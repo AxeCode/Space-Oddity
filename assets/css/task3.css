@@ -7,18 +7,16 @@ img{
 }
 .container{
     background-color: #ccc;
-    /*height: 800px;*/
     margin:20px;
     border:1px solid #999;
+    float: left;
 }
 .box{
     background-color: #fff;
-    /*padding: 20px;*/
     margin:20px;
     border:1px solid #999;
 }
 .left{
-    height: 80px;
     width: 200px;
     float: left;
     padding: 20px;
@@ -35,11 +33,11 @@ img{
     margin-left:10px;
 }
 .right img{
-    margin:20px 20px 10px;
+    margin:20px 20px 20px;
+    display: block;
 }
 .main{
     margin:20px 160px 20px 280px;
-    height: 400px;
     padding: 20px;
 }
 .right{
