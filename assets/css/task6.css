@@ -1,0 +1,87 @@
+body{
+    background-color: #ccc;
+}
+.container{
+    /*position:*/
+    width: 892px;
+    margin:40px auto;
+    background-color: #fff;
+    height: 1386px;
+    padding: 0px 44px;
+}
+#logo{
+    color:#ffffff;
+    margin:0px;
+    font-size: 12px;
+    font-family: '黑体';
+    height: 61px;
+    width: 110px;
+    background-color: #d45d5c;
+    vertical-align: bottom;
+    display: inline-block;
+}
+#logo span{
+    display: inline-block;
+    margin: 40px auto auto 5px;
+}
+#date {
+    display: inline-block;
+    margin: 40px auto auto 5px;
+    float: right;
+    font-size: 12px;
+    font-family: '黑体';
+    color: #d45d5c;
+}
+.image-box{
+    display: inline-block;
+    margin-top:30px;
+    position: relative;
+    width: 641px;
+    height: 301px;
+}
+.txt-box{
+    margin-top: 30px;
+    display: inline-block;
+    height: 301px;
+    width: 203px;
+    border-top: 2px solid #cc8091;
+    float: right;
+}
+.transparent-left{
+    position: absolute;
+    left: 0;
+    top:0;
+    width: 191px;
+    height: 301px;
+    background-color:#75b86b;
+    opacity: 0.5;
+}
+.transparent-right{
+    position: absolute;
+    right: 0;
+    top:0;
+    width: 191px;
+    height: 301px;
+    background-color:#d45d5c;
+    float: right;
+    opacity: 0.5;
+}
+hr{
+    margin: 0px auto;
+    border:1px solid #938e8c;
+    width: 892px;
+}
+.title{
+    line-height: 40px;
+    display: inline;
+    color:#000000;
+    font-size: 24px;
+    font-family: '微软雅黑';
+    border-bottom: 2px solid #000000;
+    /*text-decoration: underline;*/
+
+}
+.title span{
+    font-size: 30px;
+}
+
