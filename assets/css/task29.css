@@ -1,0 +1,50 @@
+.container{
+    width:100%;
+    margin:0;
+    padding:0;
+}
+form{
+    width:1200px;
+    margin:50px auto;
+    font-size: 24px;
+
+}
+input{
+    border-radius:5px;
+    height:30px;
+    width:500px;
+    margin:10px;
+    font-size: 20px;
+}
+button{
+    border-radius:10px;
+    background-color:#4F9CEE;
+    padding:10px;
+    font-size: 24px;
+}
+label{
+    display: inline-block;
+    width:100px;
+    text-align:center;
+}
+.form-group{
+    margin:20px auto;
+}
+.input-area{
+    display: inline-block;
+}
+.info-row{
+    margin-left:150px;
+}
+.warning{
+    border:1px solid red;
+}
+.text-warning{
+    color:red;
+}
+.success{
+    border:1px solid green;
+}
+.text-success{
+    color:green;
+}
