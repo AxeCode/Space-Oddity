@@ -1,0 +1,111 @@
+body {
+    padding: 0;
+    margin: 0;
+}
+
+table,
+form,
+#banner {
+    width: 50%;
+    margin: 20px auto;
+}
+
+th {
+    color: #fff;
+    text-align: left;
+    background-color: black;
+}
+
+table tbody tr:nth-child(2n) {
+    background-color: #ccc;
+}
+
+table tbody tr:nth-child(-n+3) {
+    color: red;
+}
+
+input {
+    height: 30px;
+    width: 40%;
+    transition: width 2s linear 0s;
+    -moz-transition: width 2s;
+    -webkit-transition: width 2s;
+    -o-transition: width 2s;
+}
+
+input:focus {
+    height: 40px;
+    width: 60%;
+}
+#banner {
+    position: relative;
+    height: 150px;
+    width: 300px;
+    overflow: hidden;
+}
+
+ul {
+    display: block;
+    position: relative;
+    transition: 1s left;
+    left: 0;
+}
+
+li {
+    display: block;
+    height: 150px;
+    width: 300px;
+    position: absolute;
+    top: 0;
+    list-style: none;
+}
+
+li:first-child {
+    left: 0px;
+    background: green;
+}
+li:nth-child(2) {
+    left: -300px;
+    background: yellow;
+}
+li:nth-child(3){
+    left: -600px;
+    background: blue;
+}
+
+a {
+    display: block;
+    width: 20px;
+    height: 20px;
+    background: white;
+    position: absolute;
+    bottom: 0px;
+    opacity: 0.8;
+    margin: 1px;
+    text-align: center;
+    line-height: 20px;
+    text-decoration: none;
+    color: black;
+}
+
+#a:target ~ ul{
+    left: 0px;
+}
+
+#b:target ~ ul{
+    left: 300px;
+}
+
+#c:target ~ ul{
+    left: 600px;
+}
+
+a:nth-of-type(1) {
+    right: 44px;
+}
+a:nth-of-type(2) {
+    right: 22px;
+}
+a:nth-of-type(3) {
+    right: 0px;
+}
