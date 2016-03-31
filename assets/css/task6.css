@@ -343,3 +343,111 @@ hr {
     font-family: 'SIMHEI';
 
 }
+.main-index{
+    width: 459px;
+    height: 318px;
+    background-color:rgb(235,235,216);
+    margin-top:20px;
+    position: relative;
+}
+.main-index .left-box{
+    width: 260px;
+    height: 160px;
+    background-color: #d45d5c;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+}
+.main-index .left-box .left-zero{
+    font-size: 110px;
+    color:#fff;
+    position: absolute;
+    height: 160px;
+    line-height: 160px;
+    left:10px;
+}
+.main-index .left-box .right-something{
+    padding: 10px;
+    font-size: 110px;
+    color:#fff;
+    position: absolute;
+    height: 86px;
+    border-left:2px solid #fff;
+    top:37px;
+    left:66px;
+}
+.main-index .left-box .right-something {
+    font-size: 21px;
+    color:#fff;
+    font-style: italic;
+    line-height: 24px;
+    font-family: 'SIMHEI';
+}
+.haha{
+    font-size: 12px;
+    line-height: 15px;
+    font-style: normal;
+}
+.main-index .right-box{
+    width: 179px;
+    height: 160px;
+    position: absolute;
+    right: 10px;
+    bottom: 0;
+    font-size: 14px;
+    color:#5a5b5b;
+    font-family: 'SIMHEI';
+    font-style: italic;
+}
+.main-index .right-box span{
+    position: relative;
+    left:-45px;
+    width: 40px;
+    height: 43px;
+    padding: 0px;
+    display: inline-block;
+    float: left;
+    font-size: 72px;
+    color:#d45d5c;
+    text-align: center;
+}
+.main-index .right-box span:nth-of-type(2){
+    float: right!important;
+    left: 0px!important;
+}
+.main-index .top-box{
+    position: relative;
+    top:20px;
+    margin:20px 10px 20px 20px;
+    height: 118px;
+}
+.main-index .top-box .row{
+
+    margin:10px 10px 10px 10px;
+    height: 30px;
+}
+.main-index .top-box .triangle{
+    display: inline-block;
+    border:5px solid transparent;
+    border-bottom-color: #3F51B5;
+    width: 0px;
+    border-bottom-width: 8.66px;
+    border-top-width: 0px;
+    margin-right: 5px;
+}
+.main-index .row .index-text{
+    font-size: 16px;
+    font-family: 'NSimSun';
+    line-height: 30px;
+}
+.main-index .row span{
+    display: inline-block;
+}
+.main-index .row .page-text{
+    color:#5a5b5b;
+    font-style: italic;
+    font-size: 12px;
+    font-family: 'NSimSun';
+    line-height: 30px;
+    float: right;
+}
