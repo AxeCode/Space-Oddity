@@ -1,0 +1,10 @@
+.triangle{
+    border:50px solid transparent;
+    border-bottom-color: blue;
+    width: 0px;
+    border-left-color:red;
+    border-right-color:green;
+    border-top-color:yellow;
+    border-left-width: 50px;
+    border-bottom-width: 86.6px;
+}
