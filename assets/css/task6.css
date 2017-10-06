@@ -400,8 +400,6 @@ hr {
     font-style: italic;
 }
 .main-index .right-box span{
-    position: relative;
-    left:-45px;
     width: 40px;
     height: 43px;
     padding: 0px;
