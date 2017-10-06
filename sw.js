@@ -13,7 +13,7 @@ var rules = [
   },
   {
     pattern: /\//,
-    maxAge: 86400
+    maxAge: 300
   },
   {
     pattern: /^.+jpeg$/,
