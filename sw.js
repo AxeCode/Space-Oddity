@@ -1,5 +1,6 @@
 var CACHES_KEY = "v1";
 var filesToCache = [
+  "/",
   "assets/image/unset.jpg",
    "assets/image/7-1.jpg",
    "assets/image/055.jpg",
@@ -8,6 +9,10 @@ var filesToCache = [
 var rules = [
   {
     pattern: /^.+png$/,
+    maxAge: 86400
+  },
+  {
+    pattern: /\//,
     maxAge: 86400
   },
   {
